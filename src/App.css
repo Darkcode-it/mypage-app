@@ -1,7 +1,17 @@
+body {
+  font-family: 'Courier New', Courier, monospace;
+  text-shadow: 3px 3px 3px #ababab;
+  background-color: rgb(238,174,202);
+  background: radial-gradient(circle, rgba(238,174,202,0.6148751737022935) 0%, rgba(148,187,233,0.7017099075958508) 100%);
+
+}
+
+
+
 .App {
   text-align: center;
 }
-
+  
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +45,243 @@
   to {
     transform: rotate(360deg);
   }
+}
+.container{
+
+  gap: 4px;
+  grid-template-columns: repeat(auto-fit , minmax(80px, 1fr));
+ width:100%;
+ margin: 70px auto;
+}
+@media only screen and (min-width: 600px) {}
+@media only screen and (min-width:600px) and (max-width: 900px) {}
+@media only screen and (min-width:900px) {}
+
+
+/* Minimal CSS Reset */
+
+html {
+  box-sizing: border-box;
+  font-size: 12px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+/* Typography */
+
+html {
+	font-family: 'Roboto', sans-serif;
+}
+
+@media (min-width: 576px) {
+	html {
+		font-size: 14px;
+      
+	}
+  
+}
+
+@media (min-width: 768px) {
+	html {
+		font-size: 18px;
+	}
+}
+
+@media (min-width: 992px) {
+	html {
+		font-size: 20px;
+	}
+}
+
+@media (min-width: 1200px) {
+	html {
+		font-size: 20px;
+	}
+}
+
+.icons-social i {
+	font-size: 2em;
+}
+
+/* Custom Styles */
+
+main {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	justify-content: center;
+	padding: 0 30px;
+	text-align: center;
+}
+
+main > .intro {
+	font-family: 'Reem Kufi', sans-serif;
+	font-size: 3.75em;
+	font-weight: 600;
+}
+
+main > .tagline {
+	font-size: 1.5rem;
+	margin: 1.5rem 0;
+	font-weight: 100;
+}
+
+.icons-social i {
+	padding: 7px;
+}
+
+.icons-social a {
+  text-decoration: none;
+}
+
+.devto {
+	margin-bottom: -0.20rem;
+}
+
+.devto svg {
+	margin-bottom: -0.20rem;
+	margin-left: 0.675rem;;
+	width: 2.65rem;
+	height: 2.65rem;
+}
+
+
+
+
+
+/* ________________________________________________________________ */
+
+
+/* types styles  */
+
+
+/* _________________________________________________________________ */
+
+
+
+/* main {
+	background: #f6bd39f1;
+	color: black;
+
+}
+
+.icons-social a {
+	color: black;
+}
+
+.ons-socialic a svg path{
+	fill: black;
+}
+.ons-social:hover{
+	color: #4B5658;
+} */
+
+
+/* Theme */
+
+/* main {
+	background: #43A047;
+	color: #FAFAFA;
+}
+
+.icons-social a {
+	color: #FAFAFA;
+}
+
+.icons-social a svg path{
+	fill: #FAFAFA;
+} */
+
+
+
+
+/* Theme */
+
+/* main {
+	background: #485564;
+	color: #FAFAFA;
+}
+
+.icons-social a {
+	color: #FAFAFA;
+}
+
+.icons-social a svg path{
+	fill: #FAFAFA;
+}    */
+
+
+/* Theme */
+/* 
+main {
+	background: #303F9F;
+	color: #FAFAFA;
+}
+
+.icons-social a {
+	color: #FAFAFA;
+}
+
+.icons-social a svg path{
+	fill: #FAFAFA;
+} */
+
+
+
+
+/* Theme */
+
+/* main {
+	background: #AF3D4E;
+	color: #FAFAFA;
+}
+
+.icons-social a {
+	color: #FAFAFA;
+}
+
+.icons-social a svg path{
+	fill: #FAFAFA;
+} */
+
+
+
+
+/* Theme */
+
+main {
+	background-color: rgb(238,174,202);
+	background: radial-gradient(circle, rgba(238,174,202,0.6148751737022935) 0%, rgba(148,187,233,0.7017099075958508) 100%);;
+	color:black;
+}
+
+.icons-social a {
+	color: black;
+}
+
+.icons-social a svg path{
+	fill: black;
+}
+a:hover{
+	color: rgba(109, 240, 242);
+	transition: 1s ease;
+	font-size:15px;
 }

@@ -1,0 +1,78 @@
+.singleSkill{
+    border: 1px solid black;
+    border-radius: 50% 10% 50% 10% / 10% 50% 10% 50%;
+    width: 13%;
+    height: 30%;
+    padding: 10px;
+    margin: 10px;
+
+
+    /*_________________________*/
+
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+
+/*_______________________________*/
+
+
+    
+    
+}
+
+.skill{
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+
+    /*______________________________*/
+    /*display: grid;*/
+    place-items: center;
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+
+
+}
+
+.singleSkill:hover{
+    /*font-size: 20px;*/
+    transition: 1s ease;
+    cursor:pointer;
+    transform: skew(5deg,1deg);
+    border: 1px inset rgba(109, 240, 242);
+    /*backdrop-filter: blur(1000px);*/
+}
+.image{
+    width: 40%;
+    height: auto;
+    object-fit: cover;
+    transition: all ease-in-out 1s;
+
+}
+.title{
+    font-size: 15px;
+}
+
+
+@media (max-width: 576px) {
+	.singleSkill{
+        border: 1px solid black;
+        border-radius: 50% 10% 50% 10% / 10% 50% 10% 50%;
+        width: 40%;
+        height: 30%;
+        padding: 10px;
+        margin: 10px;
+
+        
+        /*_________________________*/
+    
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+    
+    /*_______________________________*/
+        
+    }
+  
+}

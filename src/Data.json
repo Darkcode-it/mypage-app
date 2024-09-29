@@ -1,0 +1,66 @@
+{
+    "title": "Hello World my name is ",
+    "subtitle": "Sudo apt install Front-end development && Network",
+    "Link": {
+        "telegram": "https://t.me/darkcodeit",
+        "github": "https://github.com/Darkcode-it",
+        "instagram": "https://www.instagram.com/musarahdit?igsh=eW4weGpjdWFjYncz&utm_source=qr",
+        "Gmail":"darkcodeit@gmail.com"
+    },
+    "data": [
+        {
+            "id":1,
+            "logo": "images/Network.png",
+            "title":"Network+"
+
+        },
+        {
+            "id":2,
+            "logo": "images/linux.png",
+            "title":"Linux"
+
+        },
+        {
+            "id":3,
+            "logo": "images/mac.png",
+            "title":"Mac "
+        },
+        {
+            "id":4,
+            "logo": "images/tls.png",
+            "title":"Tails"
+        },
+        {
+            "id":5,
+            "logo": "images/html.png",
+            "title":"Html"
+        },
+        {
+            "id":6,
+            "logo": "images/css.png",
+            "title":"Css"
+        },
+        {
+            "id":7,
+            "logo": "images/js.png",
+            "title":"Js"
+        },
+        {
+            "id":8,
+            "logo": "images/react.png",
+            "title":"React"
+        },
+        {
+            "id":9,
+            "logo": "images/python.png",
+            "title":"Py"
+        },
+        {
+            "id":9,
+            "logo": "images/Git.png",
+            "title":"Git"
+        }
+
+    ]
+
+}
